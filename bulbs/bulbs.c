@@ -5,6 +5,8 @@
 const int BITS_IN_BYTE = 8;
 
 void print_bulb(int bit); //THIS IS AN EDIT tempt
+// this is my second edit 
+// why is this nit working 
 
 int main(void)
 {
