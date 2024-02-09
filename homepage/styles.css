@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav-open .nav {
+    transform: translateX(0)
+}
+
+.nav-open .main {
+    transform: translateX(350px)
+}
+
+.nav {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #333333;
+    transform: translateX(-150px);
+    transition: transform 0.2s;
+    overflow: hidden;
+}
+
+.nav-close {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 15px 25px;
+    color: #dddddd;
+    cursor: pointer;
+}
+
+.nav-links-container {
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.15);
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.nav-text {
+    font-size: 22px;
+    font-family: 'Assistant', sans serif;
+    font-weight: 500;
+}
+
+.nav-link: hover,
+.nav-close: hover {
+    background: rgba(255, 255, 255, 0.05)
+}
+
+.main {
+    transition: transform 0.2s;
+}
+
+main.centered {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.text-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.color-SlateBlue {
+    color: SlateBlue;
+}
+
+.font-TNM {
+    font-family: "Times New Roman", Times Serif;
+}
+
+ul.remove {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigate-button {
+    border: none;
+    background: none;
+    font size: large;
+}
+
+.banner {
+    background-color: #dddddd;
+    /* Change the background color to your preference */
+    color: #fff;
+    /* Text color */
+    padding: 10px;
+    /* Padding around the banner content */
+    text-align: center;
+    /* Center-align the content */
+    font-size: 18px;
+    /* Font size */
+}
+
+.spacer {
+    margin-top: 30px;
+    /* Add margin above the element */
+    padding-bottom: 50px;
+    /* Add padding below the element */
+}

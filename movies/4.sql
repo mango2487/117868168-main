@@ -1,0 +1,1 @@
+SELECT COUNT(rating) AS 'Movies with imdb of 10' FROM ratings WHERE rating = '10';

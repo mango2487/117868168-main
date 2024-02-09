@@ -1,0 +1,17 @@
+Times:
+
+10 simulations: TODO (0m0.027)
+100 simulations: TODO (0m0.028)
+1000 simulations: TODO (0m0.034)
+10000 simulations: TODO (0m0.110)
+100000 simulations: TODO (0m0.843)
+1000000 simulations: TODO (0m7.874)
+
+Questions:
+
+Which predictions, if any, proved incorrect as you increased the number of simulations?: TODO
+That the order would stay relatively the same through the simulations (but not really lol 1000 and before)
+
+Suppose you're charged a fee for each second of compute time your program uses.
+After how many simulations would you call the predictions "good enough"?: TODO
+10,000 simulations makes sure to include all teams properly

@@ -1,0 +1,4 @@
+Hypothesize about why the way you’ve calculated this aura might not be very representative of the
+listener. What better ways of calculating this aura would you propose?
+
+There is no genre realtion within the sql database, 

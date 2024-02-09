@@ -1,0 +1,62 @@
+sort1 uses: Bubble
+
+How do you know?: Bubble, it was the remainder. But also because it was the quickest with sorted list
+
+sort2 uses: Merge
+
+How do you know?: Because it was the most time efficient sorting method of the three with unsorted arrays.
+
+sort3 uses: Selection
+
+How do you know?: Because when itterating over the 50,000 sorted data sets it was particulary slow, with sorted
+unsorted arrays
+
+
+//logical sequence to teck
+so basically i have the algorithms, (merge, selection, and bubble sort) and a bunch of files of ranom/ sorted
+data sets
+we do not have access to the c source code, so to figure this out we have the time to sort each file
+
+The recursion IE the merge sort method should be the quickest? but im not sure between selection/bubble. But
+techniclaly merge sort is more memory intensive
+
+Results 5000 real:
+       random / Sorted / reversed
+Sort.1  0.110s / 0.035 / 0.071
+sort.2  0.024 / 0.039 / 0.033
+Sort.3  0.052 / 0.069 / 0.070
+
+Results 50,000 sys:
+random / Sorted
+0.212 / 0.140
+0.147 / 0.176
+0.188 / 0.222
+
+results 50,000 real:
+random / sorted / reversed
+7.868 / 1.106 / 5.808
+0.911 / 1.093 / 0.731
+3.765 / 5.954 / 3.484
+
+Bubble sort
+Best is (n^2)
+Worst is (n)
+
+Selection
+best n^2
+worst n^2
+
+Merge
+best n of logn
+worst n of logn
+
+Sorted array
+best (bubble)
+worst (selection)
+
+unsorted array
+best for unsorted (merge)
+worst (selection)
+
+
+
